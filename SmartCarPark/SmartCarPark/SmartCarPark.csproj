@@ -234,6 +234,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="files\ardunio.jpg" />
     <Content Include="files\ncXoKgGgi.png" />
     <Content Include="files\platephoto.jpeg" />
     <Content Include="files\SmartCarParking.png" />
