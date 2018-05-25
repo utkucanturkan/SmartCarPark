@@ -12,5 +12,5 @@ In this project, a vehicle is photographed by means of an image recorder, and th
  - [x] OpenCV/EmguCV
  - [x] Visual Studio 2017 Community
 
-## Flow Chart
-![FlowChart](https://www.dropbox.com/s/qizvqzluxwm8t08/FlowChartSmartCarPark.png?dl=1)
+## User Interface Design
+![UI Design](https://raw.githubusercontent.com/utkucanturkan/CarPlateRecognizer/master/SmartCarPark/SmartCarPark/files/UIDesign.jpg)
