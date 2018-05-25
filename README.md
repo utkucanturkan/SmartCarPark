@@ -3,6 +3,8 @@
 
 In this project, a vehicle is photographed by means of an image recorder, and the plate information on the vehicle is obtained by applying various **image processing techniques** to the obtained image. If the plate is authorized, the system permits car for entering and exiting as well.
 
+[Full Document](https://www.dropbox.com/s/szs5cwsu9x9hvcl/Come492%20-%20Smart%20Car%20Park%20-%20Final%20Report.docx?dl=0)
+
 # Technologies
 
  - [x] C#
