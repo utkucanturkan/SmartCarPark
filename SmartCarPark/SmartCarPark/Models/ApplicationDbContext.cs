@@ -6,7 +6,7 @@ namespace SmartCarPark.Models
     public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext()
-            : base("ConnectionString")
+            : base("SmartCarParkDB")
         {
             Database.SetInitializer(new ApplicationDbInitializer());
         }

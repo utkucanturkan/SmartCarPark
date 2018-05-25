@@ -1,19 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using SmartCarPark.Models;
+using System;
 using System.Windows.Forms;
-using SmartCarPark.Models;
 
 namespace SmartCarPark
 {
     public partial class uControlAddCar : UserControl
     {
-        Car car;
+        private Car car;
         public uControlAddCar()
         {
             InitializeComponent();
@@ -35,12 +28,11 @@ namespace SmartCarPark
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            var model = new Car
+            car.Add(new Car
             {
                 Plate = txtPlate.Text,
                 ApartmentNo = Convert.ToInt16(cmbApartments.SelectedValue)
-            };
-            car.Add(model);
+            });
             this.ParentForm.Close();
         }
     }

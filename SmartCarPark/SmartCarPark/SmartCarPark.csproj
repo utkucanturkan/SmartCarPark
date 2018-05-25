@@ -93,16 +93,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddData.cs">
+    <Compile Include="ManagementForms\AddData.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddData.Designer.cs">
+    <Compile Include="ManagementForms\AddData.Designer.cs">
       <DependentUpon>AddData.cs</DependentUpon>
     </Compile>
-    <Compile Include="EditData.cs">
+    <Compile Include="ManagementForms\EditData.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EditData.Designer.cs">
+    <Compile Include="ManagementForms\EditData.Designer.cs">
       <DependentUpon>EditData.cs</DependentUpon>
     </Compile>
     <Compile Include="PlateRecognitionSystemForm.cs">
@@ -118,10 +118,10 @@
     <Compile Include="MainPage.Designer.cs">
       <DependentUpon>MainPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="ManagementForm.cs">
+    <Compile Include="ManagementForms\ManagementForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ManagementForm.Designer.cs">
+    <Compile Include="ManagementForms\ManagementForm.Designer.cs">
       <DependentUpon>ManagementForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\Apartment.cs" />
@@ -130,34 +130,34 @@
     <Compile Include="PlateFinder.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="uControlAddApartment.cs">
+    <Compile Include="UserControls\uControlAddApartment.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="uControlAddApartment.Designer.cs">
+    <Compile Include="UserControls\uControlAddApartment.Designer.cs">
       <DependentUpon>uControlAddApartment.cs</DependentUpon>
     </Compile>
-    <Compile Include="uControlAddCar.cs">
+    <Compile Include="UserControls\uControlAddCar.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="uControlAddCar.Designer.cs">
+    <Compile Include="UserControls\uControlAddCar.Designer.cs">
       <DependentUpon>uControlAddCar.cs</DependentUpon>
     </Compile>
-    <Compile Include="uControlEditApartment.cs">
+    <Compile Include="UserControls\uControlEditApartment.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="uControlEditApartment.Designer.cs">
+    <Compile Include="UserControls\uControlEditApartment.Designer.cs">
       <DependentUpon>uControlEditApartment.cs</DependentUpon>
     </Compile>
-    <Compile Include="uControlEditCar.cs">
+    <Compile Include="UserControls\uControlEditCar.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="uControlEditCar.Designer.cs">
+    <Compile Include="UserControls\uControlEditCar.Designer.cs">
       <DependentUpon>uControlEditCar.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AddData.resx">
+    <EmbeddedResource Include="ManagementForms\AddData.resx">
       <DependentUpon>AddData.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EditData.resx">
+    <EmbeddedResource Include="ManagementForms\EditData.resx">
       <DependentUpon>EditData.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PlateRecognitionSystemForm.resx">
@@ -166,7 +166,7 @@
     <EmbeddedResource Include="MainPage.resx">
       <DependentUpon>MainPage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ManagementForm.resx">
+    <EmbeddedResource Include="ManagementForms\ManagementForm.resx">
       <DependentUpon>ManagementForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -179,16 +179,16 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="uControlAddApartment.resx">
+    <EmbeddedResource Include="UserControls\uControlAddApartment.resx">
       <DependentUpon>uControlAddApartment.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="uControlAddCar.resx">
+    <EmbeddedResource Include="UserControls\uControlAddCar.resx">
       <DependentUpon>uControlAddCar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="uControlEditApartment.resx">
+    <EmbeddedResource Include="UserControls\uControlEditApartment.resx">
       <DependentUpon>uControlEditApartment.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="uControlEditCar.resx">
+    <EmbeddedResource Include="UserControls\uControlEditCar.resx">
       <DependentUpon>uControlEditCar.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="OpenTK.dll.config" />
@@ -235,7 +235,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="files\ncXoKgGgi.png" />
-    <Content Include="files\p-photo.jpeg" />
     <Content Include="files\platephoto.jpeg" />
     <None Include="Resources\arrow.png" />
   </ItemGroup>
