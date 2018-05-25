@@ -3,6 +3,8 @@
 
 In this project, a vehicle is photographed by means of an image recorder, and the plate information on the vehicle is obtained by applying various **image processing techniques** to the obtained image. If the plate is authorized, the system permits car for entering and exiting as well.
 
+[Full Document](https://www.dropbox.com/s/szs5cwsu9x9hvcl/Come492%20-%20Smart%20Car%20Park%20-%20Final%20Report.docx?dl=0)
+
 # Technologies
 
  - [x] C#
@@ -11,6 +13,11 @@ In this project, a vehicle is photographed by means of an image recorder, and th
  - [x] EntityFramework 6 (ORM)
  - [x] OpenCV/EmguCV
  - [x] Visual Studio 2017 Community
+ - [x] Ardunio
 
-## Flow Chart
-![FlowChart](https://www.dropbox.com/s/qizvqzluxwm8t08/FlowChartSmartCarPark.png?dl=1)
+# User Interface Design
+![UI Design](https://raw.githubusercontent.com/utkucanturkan/CarPlateRecognizer/master/SmartCarPark/SmartCarPark/files/UIDesign.jpg)
+
+# Ardunio Software Development
+
+The Arduino IDE supports the languages C and C++ using special rules of code structuring. The Arduino IDE supplies a software library from the Wiring project, which provides many common input and output procedures.
