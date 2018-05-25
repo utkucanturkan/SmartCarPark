@@ -16,8 +16,12 @@ In this project, a vehicle is photographed by means of an image recorder, and th
  - [x] Ardunio
 
 # User Interface Design
+
 ![UI Design](https://raw.githubusercontent.com/utkucanturkan/CarPlateRecognizer/master/SmartCarPark/SmartCarPark/files/UIDesign.jpg)
 
 # Ardunio Software Development
 
 The Arduino IDE supports the languages C and C++ using special rules of code structuring. The Arduino IDE supplies a software library from the Wiring project, which provides many common input and output procedures.
+
+![Ardunio](https://raw.githubusercontent.com/utkucanturkan/SmartCarPark/master/SmartCarPark/SmartCarPark/files/ardunio.jpg)
+
