@@ -14,5 +14,5 @@ In this project, a vehicle is photographed by means of an image recorder, and th
  - [x] OpenCV/EmguCV
  - [x] Visual Studio 2017 Community
 
-## User Interface Design
+# User Interface Design
 ![UI Design](https://raw.githubusercontent.com/utkucanturkan/CarPlateRecognizer/master/SmartCarPark/SmartCarPark/files/UIDesign.jpg)
