@@ -13,7 +13,7 @@ In this project, a vehicle is photographed by means of an image recorder, and th
  - [x] EntityFramework 6 (ORM)
  - [x] OpenCV/EmguCV
  - [x] Visual Studio 2017 Community
- - [x] Ardunio
+ - [x] Arduino
 
 # User Interface Design
 
